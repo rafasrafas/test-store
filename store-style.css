@@ -8,39 +8,40 @@ body{
     background: #e2dada;
 }
 
-.reggae{
-        position: relative;
-            
-        background: #a0d6ae;
-      }
-
 .header {
-    display: flex;
-    justify-content: space-between;
-    height: 70px;
-    align-items: center;
-}
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+        align-items: center;
+        width: 1776px;
+    }
 
-img{
-    width: 150px;
-}
-
+    .cabeca{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 18px;
         
-.lista {
+    }
+    
+    .menu{
+        text-align:center;
+        align-items:center;
+    }
+
+
+
+input{
+    height: 25px;
+    width: 500px;
+}
+
+.conteudo{
     display: flex;
     list-style: none;
-    align-items: center;  
-    width: 250px;
-    
+    margin: 0;
+    flex-wrap: wrap;
+    margin-left: 42px;
 }
-
-.quadrados {
-    width: 150px;
-    margin-left: 8px;   
-    align-items: center;  
-    list-style: none; 
-    width: 250px;   
-}   
 
 .conteiner{
     display: flex;
@@ -53,11 +54,13 @@ img{
    
 }
 
-.conteudo{
-    display: flex;
-    list-style: none;
-   margin: 0;
-}
+.quadrados {
+    width: 150px;
+    margin-left: 8px;   
+    align-items: center;  
+    list-style: none; 
+    width: 250px;   
+}   
 
 .item{
     width: 200px;
@@ -65,3 +68,21 @@ img{
     margin-left: 25px;
     margin-bottom: 15px;
 }
+
+
+img{
+    width: 150px;
+}
+
+.logo{
+    width: 30px;
+    height: 10px;
+}
+
+.compras{
+  
+}
+
+
+
+
